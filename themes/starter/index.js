@@ -35,7 +35,6 @@ import { CTA } from './components/CTA'
 import { SignInForm } from './components/SignInForm'
 import { SignUpForm } from './components/SignUpForm'
 import { SVG404 } from './components/svg/SVG404'
-import { SignUpForm } from './components/SignUpForm'
 /**
  * 布局框架
  * Landing-2 主题用作产品落地页展示
