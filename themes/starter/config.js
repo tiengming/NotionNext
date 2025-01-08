@@ -254,10 +254,7 @@ const CONFIG = {
   STARTER_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
   STARTER_404_BACK: '回到主页',
 
-  STARTER_POST_REDIRECT_ENABLE: true,
-  STARTER_POST_REDIRECT_URL: 'https://buxiantang.top/',
 
-  STARTER_NEWSLETTER: true,
 
   STARTER_CTA_ENABLE: true,
   STARTER_CTA_TITLE: '想阅读更多的修行文章吗？',
@@ -271,6 +268,6 @@ const CONFIG = {
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://buxiantang.top', // 重定向域名
-  STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
+  STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || true // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
