@@ -262,10 +262,15 @@ const CONFIG = {
   STARTER_CTA_ENABLE: true,
   STARTER_CTA_TITLE: '想阅读更多的修行文章吗？',
   STARTER_CTA_TITLE_2: '现在开始吧',
-  STARTER_CTA_DESCRIOTN: '访问卜仙堂的博客网站，这里分享了我的所有修行文章，涵盖了易学、丹道、仙道、佛法、道法、姓名学、风水学……',
-  STARTER_CTA_BUTTON: true,
-  STARTER_CTA_BUTTON_URL: 'https://blog.buxiantang.top',
+  STARTER_CTA_DESCRIPTION:
+    '访问卜仙堂的博客网站，这里分享了我的所有修行文章，涵盖了易学、丹道、仙道、佛法、道法、姓名学、风水学……',
+  STARTER_CTA_BUTTON: true, // 是否显示按钮
+  STARTER_CTA_BUTTON_URL:
+    'https://blog.buxiantang.top',
   STARTER_CTA_BUTTON_TEXT: '开始阅读',
-}
 
-export default CONFIG;
+  STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
+  STARTER_POST_REDIRECT_URL: 'https://buxiantang.top', // 重定向域名
+  STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
+}
+export default CONFIG
