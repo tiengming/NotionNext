@@ -11,7 +11,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_TEXT: '我的博客👈',
   STARTER_HERO_BUTTON_1_URL: 'https://blog.buxiantang.top/',
   STARTER_HERO_BUTTON_2_TEXT: '经典解析',
-  STARTER_HERO_BUTTON_2_URL: 'https://buxiantang.top/anal/about/',
+  STARTER_HERO_BUTTON_2_URL: 'https://anal.buxiantang.top/about',
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/logo/anal.svg',
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/followers.png',
 
